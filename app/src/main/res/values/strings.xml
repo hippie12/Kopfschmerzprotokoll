@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kopfschmerzprotokoll</string>
+    <string name="entry_title">Eintrag</string>
+    <string name="new_entry">Neuer Eintrag</string>
+    <string name="export">Protokoll exportieren</string>
+    <string name="empty">Noch keine Einträge.\nTippe auf „Neuer Eintrag“.</string>
+    <string name="date">Datum</string>
+    <string name="time">Beginn (Uhrzeit)</string>
+    <string name="duration_hint">Dauer in Stunden (z. B. 2,5)</string>
+    <string name="location">Ort des Schmerzes</string>
+    <string name="character">Art des Schmerzes</string>
+    <string name="symptoms">Begleitsymptome</string>
+    <string name="nausea">Übelkeit / Erbrechen</string>
+    <string name="light">Licht- / Lärmempfindlichkeit</string>
+    <string name="aura">Aura (Sehstörungen o. ä.)</string>
+    <string name="medication_hint">Medikament + Dosis (z. B. Ibuprofen 400 mg)</string>
+    <string name="effect">Wirkung des Medikaments</string>
+    <string name="triggers_hint">Mögliche Auslöser (Stress, Schlaf, Wetter …)</string>
+    <string name="notes_hint">Notizen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+
+    <string-array name="locations">
+        <item>Ganzer Kopf</item>
+        <item>Stirn</item>
+        <item>Schläfen</item>
+        <item>Hinterkopf / Nacken</item>
+        <item>Einseitig links</item>
+        <item>Einseitig rechts</item>
+        <item>Rund ums Auge</item>
+    </string-array>
+    <string-array name="characters">
+        <item>Drückend / dumpf</item>
+        <item>Pochend / pulsierend</item>
+        <item>Stechend</item>
+        <item>Ziehend</item>
+        <item>Brennend</item>
+    </string-array>
+    <string-array name="effects">
+        <item>–</item>
+        <item>Gut geholfen</item>
+        <item>Etwas geholfen</item>
+        <item>Nicht geholfen</item>
+    </string-array>
+</resources>
