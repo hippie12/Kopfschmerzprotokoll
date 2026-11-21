@@ -1,5 +1,7 @@
 # Kopfschmerzprotokoll
 
+<img src="docs/logo-vorschau.png" alt="Logo Kopfschmerzprotokoll" width="600">
+
 Einfache Android-App zum Führen eines Kopfschmerztagebuchs.
 
 - Einträge mit Datum, Uhrzeit, Dauer, Stärke (1–10), Ort, Art, Begleitsymptomen,
