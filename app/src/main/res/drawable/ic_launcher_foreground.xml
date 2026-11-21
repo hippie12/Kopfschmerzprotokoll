@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Klemmbrett (Protokoll) mit orangem Blitz (Kopfschmerz). Quelle: docs/app-icon.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.58"
+        android:scaleY="0.58"
+        android:translateX="22.68"
+        android:translateY="26.16">
+        <!-- Brett mit Aussparung für die Klammer -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M22,22 H30 V27 Q30,30 33,30 H51 Q54,30 54,27 V22 H62 Q70,22 70,30 V88 Q70,96 62,96 H22 Q14,96 14,88 V30 Q14,22 22,22 Z" />
+        <!-- Klammer -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M36,12 H48 Q51,12 51,15 V23 Q51,26 48,26 H36 Q33,26 33,23 V15 Q33,12 36,12 Z" />
+        <path
+            android:fillColor="#2A2A31"
+            android:pathData="M40.5,16 H43.5 Q45,16 45,17.5 V19.5 Q45,21 43.5,21 H40.5 Q39,21 39,19.5 V17.5 Q39,16 40.5,16 Z" />
+        <!-- Protokollzeilen -->
+        <path
+            android:fillColor="#2A2A31"
+            android:pathData="M27,44 H55 A3,3 0 0 1 55,50 H27 A3,3 0 0 1 27,44 Z M27,58 H55 A3,3 0 0 1 55,64 H27 A3,3 0 0 1 27,58 Z M27,72 H43 A3,3 0 0 1 43,78 H27 A3,3 0 0 1 27,72 Z" />
+        <!-- Blitz: erst Lücke in Hintergrundfarbe, dann orange Füllung -->
+        <path
+            android:strokeColor="#2A2A31"
+            android:strokeWidth="7"
+            android:strokeLineJoin="round"
+            android:pathData="M78,0 L56,36 L70,36 L60,64 L94,24 L79,24 L90,0 Z" />
+        <path
+            android:fillColor="#E9763C"
+            android:strokeColor="#E9763C"
+            android:strokeWidth="2"
+            android:strokeLineJoin="round"
+            android:pathData="M78,0 L56,36 L70,36 L60,64 L94,24 L79,24 L90,0 Z" />
+    </group>
+</vector>
