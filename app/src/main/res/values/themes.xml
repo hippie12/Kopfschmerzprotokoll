@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary_dark</item>
-        <item name="colorSecondary">@color/accent</item>
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orange_button</item>
+        <item name="colorPrimaryVariant">@color/charcoal</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Titelleiste: anthrazit (hell) bzw. dunkelgrau (dunkel) -->
+        <item name="colorPrimarySurface">@color/bar</item>
+        <item name="android:statusBarColor">@color/bar</item>
+        <item name="android:navigationBarColor">@color/bar</item>
     </style>
+
+    <style name="AppTheme" parent="Base.AppTheme" />
 </resources>
